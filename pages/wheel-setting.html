@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel-landing</title>
+    <link rel="stylesheet" href="../src/styles/icon.css">
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <link rel="stylesheet" href="../src/styles/bootstrap.css">
+    <link rel="manifest" href="../manifest.json">
+</head>
+<body>
+<main dir="rtl" class="container-fluid container-xxl p-0 vh-100 ">
+    <section class="row m-0 position-relative h-100 overflow-hidden col-12 p-0">
+        <aside id="sidebar" class="col-12 transition-1  col-md-2 d-nne d-md-block text-white bg-dark h-100 p-0">
+            <div class="col-12  row m-0 justify-content-around align-items-center position-relative  p-2 bg-white rounded-bottom shadow-sm">
+                <div id="close_btn"
+                     class="bi d-md-none bi-chevron-up text-dark row m-0 justify-content-center fs-3 fw-bold"></div>
+                <img src="../src/images/logo.svg" class="img-fluid" alt="logo">
+
+            </div>
+            <div class="col-12 row m-0 p-1">
+                <div class="col-12 my-1 p-2 rounded menu-item d-flex align-items-center">
+                    <a href="index.html">
+                        <i class="bi bi-receipt-cutoff px-1 m-0"></i>
+                        گذارش کاربران
+                    </a>
+                </div>
+                <div class="col-12 my-1 p-2 rounded menu-item d-flex align-items-center">
+                    <a href="bonus-report.html">
+                        <i class="bi bi-gift-fill px-1 m-0"></i>
+                        گزارش هدیه ها
+                    </a>
+                </div>
+                <div class="col-12 my-1 p-2 rounded menu-item d-flex align-items-center">
+                    <a href="wheel-setting.html">
+                        <i class="bi bi-speedometer  px-1 m-0"></i>
+                        تنظیمات گردونه
+                    </a>
+                </div>
+                <div class="col-12 my-1 p-2 rounded menu-item d-flex align-items-center">
+                    <a href="bonus-setting.html">
+                        <i class="bi bi-gear-fill px-1 m-0"></i>
+                        تنظیمات هدیه ها
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <section id="main_content"
+                 class="col-12 transition-1 col-md-10 row align-content-start m-0 h-100 p-0 bg-secondary bg-opacity-10 overflow-auto">
+            <header class="col-12 d-flex p-1 vh-10 pb-2 fs-5 bg-white overflow-hidden rounded-bottom justify-content-start align-items-center shadow-sm">
+                <button id="menu-btn" class="btn border-0 col-auto p-0 m-0 bi bi-list fs-5 mx-1"></button>
+                پنل مدیریت لندینگ
+                -
+                تنظیمات گردونه
+            </header>
+            <section class="col-12 vh-90 p-2">
+                <div class="col-12 p-1 row m-0 align-items-center  justify-content-end">
+                    <button class="bg-success d-md-none p-1 col-auto border-0 rounded-2 text-white row aligni bi bi-plus fs-3 p-0 m-0"
+                            type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                    </button>
+
+                </div>
+                <section class="col-12 scroll-best-ui bg-secondary bg-opacity-25 p-1 h-100 overflow-auto rounded-2">
+                    <div class="col-12 d-none d-md-flex shadow-sm mb-2  m-0 bg-white p-2 rounded-2 border-orange">
+                        <div class="col-1">
+                            شناسه
+                        </div>
+                        <div class="col-3">
+                            جایزه
+                        </div>
+                        <div class="col-2">
+                            ترتیب نمایش
+                        </div>
+                        <div class="col-2">
+                            شانس
+                        </div>
+                        <div class="col-2">
+                            وضعیت
+                        </div>
+                        <div class="col-1">
+                            عملیات
+                        </div>
+                        <div class="col-1">
+                            <button class="bg-success border-0 rounded-2 text-white row aligni bi bi-plus fs-3 p-0 m-0"
+                                    type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                            </button>
+                        </div>
+                    </div>
+                    <section class="col-12 row m-0 overflow-hidden rounded-2 border-orange">
+                        <div class="col-12 shadow-sm border-bottom row align-items-center m-0 bg-white p-2">
+                            <div class="col-12 my-1 p-0 my-md-0 col-md-1 d-flex justify-content-between">
+                                <span class="d-md-none">شناسه:‌</span>
+                                9
+                            </div>
+                            <div class="col-12 my-1 p-0 my-md-0 col-md-3 d-flex justify-content-between">
+                                <span class="d-md-none">‌جایزه  : </span>
+                                پکیج محصولات لافارر
+                            </div>
+                            <div class="col-12 my-1 p-0 my-md-0 col-md-2 d-flex justify-content-between">
+                                            <span class="d-md-none">
+                                                ترتیب نمایش : 
+                                            </span>
+                                <code class="alert alert-warning m-0 p-1 px-2">
+                                    9
+                                </code>
+                            </div>
+                            <div class="col-12 my-1 p-0 my-md-0 col-md-2 d-flex justify-content-between">
+                                <span class="d-md-none">شانس: </span>
+                                <code class="alert alert-info m-0 p-1 px-2">
+                                    10 %
+                                </code>
+                            </div>
+                            <div class="col-12 my-1 p-0 my-md-0 col-md-2 d-flex justify-content-between">
+                                <span class="d-md-none">‌وضعیت : </span>
+                                <code class="alert alert-danger m-0 p-1 px-2">
+                                    غیر فعال
+                                </code>
+                            </div>
+                            <div class="col-12 my-1 p-0 my-md-0 col-md-2 d-flex justify-content-between">
+                                            <span class="d-md-none">
+                                                عملیات :
+                                            </span>
+                                <div>
+                                    <button class="bg-warning border-0 rounded-2 p-1 px-2 m-0" type="button"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                            class="bi bi-pencil m-0 p-0"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header col-12 d-flex justify-content-between">
+                                        <div>ساخت جایزه</div>
+                                        <div>
+                                            <button type="button" class="btn-close border" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form method="post">
+                                            <input type="hidden" name="_token"
+                                                   value="0pnMCjl4ECq2D1i94nuhhUOWbkbaWGN08vMjsuL0">
+                                            <div class="mb-3">
+                                                <label for="bonus_id" class="form-label">
+                                                    جایزه
+                                                </label>
+
+                                                <select class="form-select" name="bonus_id">
+
+                                                    <option selected="" value="1">
+                                                        1 میلیون تومان تخفیف
+                                                    </option>
+                                                    <option selected="" value="2">
+                                                        تخفیف 30 درصدی
+                                                    </option>
+                                                    <option selected="" value="3">
+                                                        50 هزار تومان تخفیف
+                                                    </option>
+                                                    <option selected="" value="4">
+                                                        100 هزار تومان تخفیف
+                                                    </option>
+                                                    <option selected="" value="5">
+                                                        150 هزار تومان تخفیف
+                                                    </option>
+                                                    <option selected="" value="6">
+                                                        تخفیف 99 درصدی
+                                                    </option>
+                                                    <option selected="" value="7">
+                                                        200 هزار تومان تخفیف خرید از الانزا
+                                                    </option>
+                                                    <option selected="" value="8">
+                                                        100 هزار تومان تخفیف خرید از الانزا
+                                                    </option>
+                                                    <option selected="" value="39">
+                                                        پکیج محصولات لافارر
+                                                    </option>
+                                                    <option selected="" value="40">
+                                                        پکیج محصولات مورینگا
+                                                    </option>
+                                                    <option selected="" value="41">
+                                                        پکیج محصولات ژوت
+                                                    </option>
+                                                    <option selected="" value="42">
+                                                        پکیج محصولات لافارر
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="order" class="form-label">
+                                                    ترتیب نمایش
+                                                </label>
+                                                <input type="number" class="form-control" id="order" value="0"
+                                                       name="order" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="chance_percentage" class="form-label">
+                                                    شانس
+                                                </label>
+                                                <input type="number" class="form-control" value="0"
+                                                       id="chance_percentage" name="chance_percentage"
+                                                       aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="is_active" class="form-label">
+                                                    وضعیت
+                                                </label>
+
+                                                <select class="form-select" name="is_active">
+                                                    <option selected="" value="true">
+                                                        فعال
+                                                    </option>
+                                                    <option value="false">
+                                                        غیر فعال
+                                                    </option>
+                                                </select>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button type="button" data-bs-dismiss="modal" class="btn btn-success">تایید و
+                                            بستن
+                                        </button>
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">بستن
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+</main>
+</body>
+<script src="../src/js/main.js"></script>
+<script src="../src/js/bootstrap.js"></script>
+</html>
